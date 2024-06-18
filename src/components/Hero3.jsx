@@ -45,7 +45,7 @@ function Hero3() {
         These are the latest properties in the Sales category. You can create the list using the “latest listing shortcode” and show items by specific categories.
       </div>
       <div className='bg-blue-300 lg:mx-[20vh] mt-10'>
-        <div className='grid grid-cols-1 lg:grid-cols-4 gap-5 pt-10'>
+        <div className='grid grid-cols-1 lg:grid-cols-4 gap-5 pt-10 mx-5 lg:mx-0'>
           {categories.map((category, index) => (
             <div key={category.name} className={`relative h-[350px] w-full ${index === 0 || index === 5 ? 'lg:col-span-2' : 'lg:col-span-1'}`}>
               <Image
